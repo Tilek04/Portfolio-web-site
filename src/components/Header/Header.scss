@@ -1,5 +1,6 @@
-* {
+body {
   background-color: #121212;
+  
 }
 
 .container {
@@ -8,6 +9,8 @@
   display: flex;
   justify-content: space-between;
   border-bottom: 0.5px solid rgb(132, 132, 132);
+  max-width: 1500px;
+  margin: auto;
   &__img {
     width: 350px;
     height: 100px;
